@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Page Layout</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Baskerville;
+            background-image: url('image/bg1.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #333; /* Default text color */
+            min-height: 100vh; /* Ensure the body covers the viewport height */
+            position: relative; /* Make the body a reference for absolute positioning */
+        }
+
+        /* Header Styles */
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .head1 {
+            font-size: 50px;
+            color: black;
+            font-weight: italic;
+            margin: 0; /* Remove default margin */
+        }
+
+        /* Main Section Styles */
+        .body_sec {
+            margin-left: 5px;
+            padding: 20px;
+            padding-bottom: 100px; /* Add padding to ensure space for the footer */
+        }
+
+        
+        
+        /* Optional: Add hover effect for menu links */
+        .menu a:hover {
+            background-color: #ddd;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="head1">ABOUT ME</div>
+    </header>
+
+<!-- Video Section -->
+<div class="video-container" style="max-width: 600px; margin: 0 auto; padding: 50px; background: rgba(255, 255, 255, 0.8); border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+    <h2 style="margin-bottom: 20px;">Let's Click The Video</h2>
+    <video width="100%" controls>
+        <source src="video/intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+             
+<!-- Main Section -->
+<main class="body_sec">
+        <section id="Content">
+         <center><h1>Q&A SESSION WITH NAZLEEN</h1></center>
+<table border="5" width="100%" align="center" cellpadding="10" cellspacing="10">
+<td colspan="3">
+<center><img src="image/myself.jpg"width="90%"height"="50%"border="5"vspace="50" hspace="50"></center>
+</td>
+<br>
+<tr align="center" valign="middle" bgcolor="white"> 
+<th rowspan="5">MYSELF</th> 
+<th>Frequent Ask Question</th> 
+<th>Explaination</th> 
+</tr> 
+ 
+<tr align="center" valign="middle"> 
+<td>What is your real meaning behind your name?</td> 
+<td>Actually, my name is kind of rare in Malaysia but once I ask my mum about this and she said "It is flower".</td> 
+</tr> 
+ 
+<tr align="center" valign="middle">  
+<td>Are you having older sibling?</td> 
+<td>Nope but I am the oldest in my siblings</td> 
+</tr> 
+ 
+<tr align="center" valign="middle"> 
+<td>Are you introvert or extrovert</td> 
+<td>I am ambivert so I can act both depends to the situation</td> 
+</tr> 
+ 
+<tr align="center" valign="middle"> 
+<td>Why does your resting face look angry?</td> 
+<td>I was also hope I can change my rest face.</td> 
+</tr>    
+
+        </section>
+    </main>
+
+    </body>
+</html>
